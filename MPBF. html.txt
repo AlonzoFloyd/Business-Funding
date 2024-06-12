@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alonzo Floyd - Business Professional</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+            background: #444;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .bio, .business, .resources, .contact, .personal-development {
+            background: #fff;
+            padding: 2rem;
+            margin: 1rem 0;
+        }
+        h2 {
+            color: #333;
+        }
+        .lead-form input, .lead-form textarea {
+            width: 100%;
+            padding: 1rem;
+            margin: 0.5rem 0;
+        }
+        .lead-form button {
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Alonzo Floyd</h1>
+    <p>Business Professional | Entrepreneur | Mentor</p>
+</header>
+
+<nav>
+    <a href="#bio">About Me</a>
+    <a href="#business">Business Funding</a>
+    <a href="#resources">Resources</a>
+    <a href="#contact">Contact</a>
+    <a href="#personal-development">Personal Development</a>
+</nav>
+
+<div class="container">
+    <section id="bio" class="bio">
+        <h2>About Me</h2>
+        <p>My name is Alonzo Floyd from NYC. I attended college for business with a focus on labor relations, so I have an understanding of workers' or employees' needs. I worked as a maintenance worker for the NYPD and NYC Housing Authority for 14 years. I am currently working part-time with a company called Mom and Pop Business Funding. They provide unsecured working capital to businesses up to 1 million dollars in 1-3 days. The money can be used at the business owner's leisure, whether it's to fund projects, pay bills, real estate, or whatever they want - their money, their choice. My interests are fishing, traveling, volunteering to help people, and bike riding.</p>
+    </section>
+
+    <section id="business" class="business">
+        <h2>Business Funding</h2>
+        <p>Mom and Pop Business Funding offers unsecured working capital to businesses up to 1 million dollars in 1-3 days. This funding can be used for a variety of purposes including funding projects, paying bills, or any other business expenses. Here are some benefits of taking advantage of this opportunity:</p>
+        <ul>
+            <li>Quick and easy access to funds</li>
+            <li>No collateral required</li>
+            <li>Flexible usage of funds</li>
+            <li>Helps manage cash flow</li>
+        </ul>
+    </section>
+
+    <section id="resources" class="resources">
+        <h2>Resources for Business Owners</h2>
+        <p>Here are some useful links and tips for business owners to help market their business and improve entrepreneurship:</p>
+        <ul>
+            <li><a href="https://www.sba.gov" target="_blank">Small Business Administration</a></li>
+            <li><a href="https://www.score.org" target="_blank">SCORE Mentoring</a></li>
+            <li><a href="https://www.hubspot.com" target="_blank">HubSpot Marketing Resources</a></li>
+            <li>Tip: Always have a clear business plan and update it regularly.</li>
+            <li>Tip: Network with other business owners to share insights and opportunities.</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you're interested in learning more about business funding opportunities or have any questions, please contact me through the form below:</p>
+        <form class="lead-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="personal-development" class="personal-development">
+        <h2>Personal Development</h2>
+        <p>Personal development is key to success in business. Here are some motivational speakers and best-selling books I recommend:</p>
+        <ul>
+            <li>Speaker: Tony Robbins</li>
+            <li>Speaker: Les Brown</li>
+            <li>Book: "Think and Grow Rich" by Napoleon Hill</li>
+            <li>Book: "The 7 Habits of Highly Effective People" by Stephen R. Covey</li>
+            <li>Book: "How to Win Friends and Influence People" by Dale Carnegie</li>
+        </ul>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Alonzo Floyd. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
